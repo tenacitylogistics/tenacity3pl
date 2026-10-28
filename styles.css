@@ -48,8 +48,8 @@ img {
 .topbar {
   background: #111111;
   color: rgba(255, 255, 255, 0.9);
-  font-size: 0.82rem;
-  letter-spacing: 0.04em;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
 }
 
@@ -87,15 +87,15 @@ img {
 
 .logo strong {
   display: block;
-  font-size: 1.05rem;
-  letter-spacing: 0.03em;
+  font-size: 1.02rem;
+  letter-spacing: 0.05em;
 }
 
 .logo small {
   display: block;
-  color: rgba(255, 255, 255, 0.7);
-  font-size: 0.7rem;
-  letter-spacing: 0.09em;
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
 }
 
@@ -160,7 +160,7 @@ img {
 
 .hero {
   background:
-    linear-gradient(120deg, rgba(9, 10, 12, 0.92), rgba(17, 18, 22, 0.82)),
+    linear-gradient(120deg, rgba(9, 10, 12, 0.93), rgba(17, 18, 22, 0.82)),
     url("https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1400&q=80") center/cover no-repeat;
   color: white;
   padding: 110px 0 90px;
@@ -190,15 +190,15 @@ img {
 
 .hero-copy h1 {
   margin: 0 0 20px;
-  font-size: clamp(2.8rem, 5vw, 4.5rem);
-  line-height: 1.05;
+  font-size: clamp(2.7rem, 4.4vw, 4.2rem);
+  line-height: 1.04;
   letter-spacing: -0.06em;
 }
 
 .hero-copy p {
-  margin: 0 0 28px;
-  max-width: 640px;
-  color: rgba(255, 255, 255, 0.76);
+  margin: 0 0 30px;
+  max-width: 650px;
+  color: rgba(255, 255, 255, 0.77);
   font-size: 1.08rem;
 }
 
@@ -221,14 +221,14 @@ img {
 }
 
 .hero-meta strong {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 
 .hero-meta span {
-  font-size: 0.8rem;
-  letter-spacing: 0.04em;
+  font-size: 0.74rem;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.68);
 }
 
 .hero-panel {
@@ -263,7 +263,7 @@ img {
 
 .panel-card p {
   margin: 0;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.72);
 }
 
 .section {
@@ -347,11 +347,6 @@ img {
   background: var(--bg);
   color: white;
   padding: 92px 0;
-}
-
-.section-heading.light h2,
-.section-heading.light p {
-  color: white;
 }
 
 .coverage-grid {
@@ -532,9 +527,9 @@ textarea {
 .footer-row {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
   gap: 10px 20px;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .footer-row p {
