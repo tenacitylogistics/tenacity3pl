@@ -2,16 +2,15 @@
   --bg: #0d0d0f;
   --bg-soft: #17171b;
   --panel: #1a1b20;
-  --panel-alt: #f8f4f5;
   --card: #ffffff;
   --text: #111111;
-  --muted: #5b616a;
-  --line: #e4dfe1;
+  --muted: #59636d;
+  --line: #e7dfe2;
   --primary: #c95d82;
   --primary-dark: #a94768;
-  --primary-soft: #f7e9ee;
+  --primary-soft: #f8ecf1;
   --white: #ffffff;
-  --shadow: 0 18px 42px rgba(12, 12, 12, 0.08);
+  --shadow: 0 18px 42px rgba(14, 14, 16, 0.08);
 }
 
 * {
@@ -25,7 +24,7 @@ html {
 body {
   margin: 0;
   font-family: "Inter", sans-serif;
-  background: #f5f5f5;
+  background: #f5f4f5;
   color: var(--text);
   line-height: 1.6;
 }
@@ -48,7 +47,7 @@ img {
 .topbar {
   background: #111111;
   color: rgba(255, 255, 255, 0.9);
-  font-size: 0.75rem;
+  font-size: 0.74rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
@@ -145,7 +144,7 @@ img {
 .btn-primary {
   background: var(--primary);
   color: white;
-  box-shadow: 0 12px 24px rgba(201, 93, 130, 0.28);
+  box-shadow: 0 12px 24px rgba(201, 93, 130, 0.25);
 }
 
 .btn-primary:hover {
@@ -190,7 +189,7 @@ img {
 
 .hero-copy h1 {
   margin: 0 0 20px;
-  font-size: clamp(2.7rem, 4.4vw, 4.2rem);
+  font-size: clamp(2.7rem, 4.3vw, 4.2rem);
   line-height: 1.04;
   letter-spacing: -0.06em;
 }
