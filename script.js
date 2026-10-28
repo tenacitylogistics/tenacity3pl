@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const button = form.querySelector("button[type='submit']");
     const originalText = button.textContent;
 
-    button.textContent = "Message Sent";
+    button.textContent = "Inquiry Sent";
     button.disabled = true;
 
     form.reset();
@@ -17,6 +17,6 @@ document.addEventListener("DOMContentLoaded", () => {
     setTimeout(() => {
       button.textContent = originalText;
       button.disabled = false;
-    }, 2000);
+    }, 2200);
   });
 });
